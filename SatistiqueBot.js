@@ -5,6 +5,16 @@ client.on('ready', () => {
     console.log(`\n[+] ${client.user.tag} Tout opérationnel!`);
 });
 
+//On éteins le bot si il n'est sur aucun serveur
+client.on('ready', () => {
+    if (client.guilds.size < 1) {
+        console.log('\n[+] StatistiqueBot n`est sur aucun serveur :( \n[+] Arrêt du script');
+        process.exit(0);
+        return;
+    }
+
+})
+
 //Si le client dit 'ping' le bot répond 'pong'
 client.on('message', msg =>{
     if (msg.content === 'ping') {
