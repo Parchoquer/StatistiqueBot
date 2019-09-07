@@ -2,12 +2,15 @@
   "name": "StatistiqueBot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "StatistiqueBot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node StatistiqueBot"
   },
   "keywords": [],
-  "author": "",
+  "author": "Parchoquer",
+  "repository": {
+    "url": "https://github.com/Parchoquer/StatistiqueBot"
+  },
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.5.1"
