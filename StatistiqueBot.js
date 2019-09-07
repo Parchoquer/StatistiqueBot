@@ -1,4 +1,4 @@
-//
+// Made by https://github.com/Parchoquer
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
