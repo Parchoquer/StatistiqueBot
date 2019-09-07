@@ -29,12 +29,12 @@ client.on('message', msg => {
 
 client.on('guildMemberAdd', member => {
     if (member.guild.id !== Statserver.guildID) return;
-    client.channels.get(Statserver.totalmembreID).setName(`Total Users : ${member.guild.memberCount}`);
+    client.channels.get(Statserver.totalmembreID).setName(`Total Membre : ${member.guild.memberCount}`);
 });
 
 client.on('guildMemberRemove', member => {
     if (member.guild.id !== Statserver.guildID) return;
-    client.channels.get(Statserver.totalmembreID).setName(`Total Users : ${member.guild.memberCount}`);
+    client.channels.get(Statserver.totalmembreID).setName(`Total Membre : ${member.guild.memberCount}`);
 });
 
 
