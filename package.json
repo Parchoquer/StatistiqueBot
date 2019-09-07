@@ -4,7 +4,7 @@
   "description": "",
   "main": "StatistiqueBot.js",
   "scripts": {
-    "start": "node StatistiqueBot"
+    "start": "node StatistiqueBot.js"
   },
   "keywords": [],
   "author": "Parchoquer",
